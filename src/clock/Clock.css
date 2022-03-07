@@ -1,0 +1,52 @@
+
+.div_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.div_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.show_clock {
+    margin: auto;
+    background-color: #61dafb;
+    border: solid white 0;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.show_clock:hover {
+    background-color: #6164fb;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .clock {
+        animation: clock-spin infinite 10s linear;
+        padding-top: 20%;
+        display: flex;
+        width: 10%;
+        height: 10%;
+        align-self: center;
+        justify-self: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+
+@keyframes clock-spin {
+    from {
+        transform: rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg);
+
+    }
+}

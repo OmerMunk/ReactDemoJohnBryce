@@ -1,0 +1,16 @@
+.price_button{
+    width: 40px;
+    background-color: indianred;
+    border: solid white 0px;
+    margin: 2px;
+    color: white;
+    border-radius: 15px;
+}
+
+.price_button:hover{
+    background-color: #000000;
+}
+
+.price_button:focus{
+    background-color: #0eff00;
+}

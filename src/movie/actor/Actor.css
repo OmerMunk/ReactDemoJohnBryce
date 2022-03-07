@@ -1,0 +1,20 @@
+.a_actor{
+    color: black;
+    transition-duration: 0.3s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.a_actor:link{
+    color: greenyellow;
+}
+
+.a_actor:hover{
+    color: white;
+    font-size: 18px;
+}
+
+.a_actor:visited{
+    color: black;
+}
+
